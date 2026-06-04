@@ -81,6 +81,18 @@ If CS2 is installed in a non-standard Steam library and the script cannot find i
 .\Install-EonObs.ps1 -Cs2CfgPath "D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg"
 ```
 
+The GSI file copied by the script is:
+
+```text
+C:\Eon\gamestate_integration_eon.cfg
+```
+
+The default CS2 target folder is:
+
+```text
+...\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg
+```
+
 If Eon eventually uses a different package manager or start command, pass those in:
 
 ```powershell
